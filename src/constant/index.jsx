@@ -2,7 +2,7 @@ const K = {
   NAVLINKS: [
     {
       name: 'Home',
-      path: '/home',
+      path: '/',
     },
     {
       name: 'About',
@@ -14,7 +14,7 @@ const K = {
     },
     {
       name: 'Contact',
-      path: 'contact-us',
+      path: '/contact-us',
     },
   ],
 };

@@ -38,7 +38,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="flex items-center">
         <img src={green} alt="Logo" className="h-8 w-8 mr-2" />
-        <span className="font-semibold text-xl text-green-700">GreenVille</span>
+        <span className="font-semibold text-xl text-primary">GreenVille</span>
       </div>
 
       {/* Hamburger Menu (for mobile) */}
