@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Other global styles */
+
+/* Swiper pagination customization */
+.swiper-pagination-bullet {
+  background-color: #ccc; /* Default bullet color */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #028D3C; /* Active bullet color */
+}
+
+/* Change color of the next (right) arrow */
+.swiper-button-next {
+    color: #028D3C; /* Change this to your desired color */
+  }
+  
+  /* Change color of the prev (left) arrow */
+  .swiper-button-prev {
+    color: #028D3C; /* Change this to your desired color */
+  }
+  
+  /* Optional: Change hover effect */
+  /* .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    color: #ff6347; */
+     /* Hover color */
+  /* } */
+  
