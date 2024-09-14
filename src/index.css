@@ -30,3 +30,7 @@
      /* Hover color */
   /* } */
   
+/* Add this to your global CSS file */
+/* .clip-path-triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+} */
