@@ -14,12 +14,9 @@ const AboutHero = () => {
         {/* Content */}
         <div className="relative z-10 p-8 text-center">
           <h1 className="text-6xl font-bold">ABOUT</h1>
-          {/* </div> */}
 
-          {/* <div className="mt-5"> */}
           <h1 className="text-4xl font-bold mt-5">GREENVILLE ESTATE</h1>
           <p className="text-lg ">Your Dream Home in Sapaiman, Accra</p>
-          {/* </div> */}
         </div>
       </div>
     </div>

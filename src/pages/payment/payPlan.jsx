@@ -115,7 +115,7 @@
 // export default PayPlan;
 
 import React from 'react';
-import img1 from '../../assets/images/img1.jpg'; // Replace with actual image paths
+import img1 from '../../assets/images/img1.jpg';
 import img2 from '../../assets/images/img2.jpg';
 import img3 from '../../assets/images/img3.jpg';
 
@@ -125,7 +125,7 @@ const PayPlan = () => {
       {/* Payment Plan Section */}
       <div className="py-12 bg-white">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold">PAYMENT PLAN</h1>
+          <h1 className="text-2xl md:text-4xl font-bold">PAYMENT PLAN</h1>
           <p className="text-gray-600">
             We offer flexible payment plans to suit your financial needs, making
             it easier for you to secure a dream home.

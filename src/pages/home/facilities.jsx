@@ -1,10 +1,10 @@
 import React from 'react';
 
-import img1 from '../../assets/images/h4.jpg';
-import img2 from '../../assets/images/h2.jpg';
-import img3 from '../../assets/images/img4.jpg';
+import img1 from '../../assets/images/img1.jpg';
+import img2 from '../../assets/images/img8.png';
+import img3 from '../../assets/images/Shopping.jpg';
 import img4 from '../../assets/images/img5.jpg';
-import img5 from '../../assets/images/h5.jpg';
+import img5 from '../../assets/images/img7.png';
 
 const facilityData = [
   { id: 1, imgSrc: img1, altText: 'Facility 1' },

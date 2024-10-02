@@ -1,30 +1,3 @@
-// import React from 'react';
-// import green from '../assets/images/GreenVillelogo.png';
-// import K from '../constant';
-// import { Link } from 'react-router-dom';
-
-// const Navbar = () => {
-//   return (
-//     <div className="flex">
-//       <div className="size-28">
-//         <img src={green} alt="" />
-//       </div>
-
-//       <div>
-//         {K.NAVLINKS.map((item, index) => {
-//           return (
-//             <Link key={index} to={item.path}>
-//               {item.name}
-//             </Link>
-//           );
-//         })}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Navbar;
-
 import React, { useState } from 'react';
 import green from '../assets/images/GreenVillelogo.png';
 import K from '../constant';
@@ -34,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between bg-white p-4 shadow-md">
+    <nav className="flex items-center justify-between bg-white p-4 shadow-md px-8">
       {/* Logo */}
       <div className="flex items-center">
         <img src={green} alt="Logo" className="h-8 w-8 mr-2" />
@@ -74,7 +47,7 @@ const Navbar = () => {
           <Link
             key={index}
             to={item.path}
-            className="block mt-4 lg:mt-0 lg:ml-6 text-green-700 hover:text-green-900"
+            className="block mt-4 lg:mt-0 lg:ml-10 text-green-700 hover:text-green-900"
           >
             {item.name}
           </Link>

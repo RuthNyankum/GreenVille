@@ -4,6 +4,8 @@ import Footer from '../../component/footer';
 import ContactUs from '../home/contactUs';
 import Facilities from '../home/facilities';
 import ContactHero from './contactHero';
+import Location from './location';
+import MapComponent from './map';
 
 const Contact = () => {
   return (
@@ -11,6 +13,8 @@ const Contact = () => {
       <Navbar />
       <ContactHero />
       <Facilities />
+      <MapComponent />
+      <Location />
       <ContactUs />
       <Footer />
     </div>
