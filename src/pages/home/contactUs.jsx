@@ -63,7 +63,7 @@ const ContactUs = () => {
             <label htmlFor="phoneNumber">
               Phone
               <input
-                type="number"
+                type="text"
                 id="phoneNumber"
                 placeholder="123456789"
                 className="w-full border-b-2 border-gray-300 p-2 mt-1 mb-3 text-lg"

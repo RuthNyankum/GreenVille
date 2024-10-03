@@ -32,7 +32,7 @@ const featuresData = [
   {
     id: 5,
     name: 'Water Treatment System',
-    img: icon1,
+    img: icon3,
   },
   {
     id: 6,
@@ -42,7 +42,7 @@ const featuresData = [
   {
     id: 7,
     name: 'Gated Community',
-    img: icon3,
+    img: icon1,
   },
   {
     id: 8,
