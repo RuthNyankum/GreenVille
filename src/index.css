@@ -34,3 +34,24 @@
 /* .clip-path-triangle {
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 } */
+
+/* src/index.css */
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./assets/fonts/Metropolis-Regular.woff2') format('woff2'),
+       url('./assets/fonts/Metropolis-Regular.woff') format('woff'),
+       url('./assets/fonts/Metropolis-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./assets/fonts/Metropolis-Bold.woff2') format('woff2'),
+       url('./assets/fonts/Metropolis-Bold.woff') format('woff'),
+       url('./assets/fonts/Metropolis-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Add other weights or styles like italic if needed */

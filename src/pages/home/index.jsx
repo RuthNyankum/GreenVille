@@ -8,7 +8,7 @@ import Footer from '../../component/footer';
 
 function Home() {
   return (
-    <div>
+    <div className="font-metropolis">
       <Navbar />
       <HomeHero />
       <HomeAbout />

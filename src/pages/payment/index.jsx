@@ -8,7 +8,7 @@ import ContactUs from '../home/contactUs';
 
 const Payment = () => {
   return (
-    <div>
+    <div className="font-metropolis">
       <Navbar />
       <PayHero />
       <PayPlan />

@@ -9,7 +9,7 @@ import PublicFacilities from './publicFacilities';
 
 const About = () => {
   return (
-    <div>
+    <div className="font-metropolis">
       <Navbar />
       <AboutHero />
       <HomeAbout />

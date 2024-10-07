@@ -9,7 +9,7 @@ import MapComponent from './map';
 
 const Contact = () => {
   return (
-    <div>
+    <div className="font-metropolis">
       <Navbar />
       <ContactHero />
       <Facilities />

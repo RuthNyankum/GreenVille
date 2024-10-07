@@ -8,7 +8,10 @@ export default {
     extend: {
       colors: {
         primary: "#028D3C",
-      }
+      },
+      fontFamily: {
+        metropolis: ['Metropolis', 'sans-serif'],  // Add the Metropolis font here
+      },
     },
   },
   plugins: [],
